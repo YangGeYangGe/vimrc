@@ -34,6 +34,8 @@ Plugin 'joshdick/onedark.vim'
 Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
 Plugin 'majutsushi/tagbar'
+
+
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
@@ -159,5 +161,21 @@ inoremap {;<CR> {<CR>};<ESC>O
 
 " sove tagbar issue
 let g:Tlist_Ctags_Cmd='/usr/local/Cellar/ctags/5.8_1/bin/ctags'
-colorscheme monokai
+
+set splitbelow
+set splitright
+
+syntax on 
+"colorscheme monokai
+
+
+colorscheme onedark
+let g:onedark_termcolors=256
+let g:airline_theme='onedark'
+
+
+
+"colorscheme gruvbox
+"set background=dark
+"let g:gruvbox_contrast='soft'
 
