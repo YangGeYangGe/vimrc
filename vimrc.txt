@@ -183,20 +183,24 @@ if (has("termguicolors"))
 endif
 
 
+"let g:rehash256 = 1
 
-""colorscheme monokai
+let g:molokai_original = 1
+colorscheme molokai
 
 
-""colorscheme onedark
+"colorscheme monokai
+"colorscheme dracula
+
 ""let g:onedark_termcolors=256
 ""let g:airline_theme='onedark'
 ""let g:onedark_terminal_italics=1
+""colorscheme onedark
 
+"set background=dark
+"let g:gruvbox_contrast_dark='hard'
+"colorscheme gruvbox
 
-colorscheme gruvbox
-set background=dark
-let g:gruvbox_contrast='hard'
-let g:gruvbox_termcolors=256
 
 
 
