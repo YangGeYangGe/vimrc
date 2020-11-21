@@ -36,6 +36,7 @@ Plugin 'vim-airline/vim-airline-themes'
 Plugin 'majutsushi/tagbar'
 Plugin 'dracula/vim'
 Plugin 'sheerun/vim-polyglot'
+Plugin 'Yggdroot/LeaderF', { 'do': ':LeaderfInstallCExtension' }
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
